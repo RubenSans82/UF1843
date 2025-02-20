@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/back.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    display: grid;
+}
+
+form {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: rgba(255, 172, 172, 0.95);
+
+}
+
+form input[type="text"] {
+
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.saveButton {
+    padding: 10px 20px;
+    background-color: rgba(255, 55, 82, 0.95);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table {
+    display: grid;
+    place-content: center;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+table.contact_list {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+table.contact_list th,
+table.contact_list td {
+    padding: 12px 15px;
+    border: 1px solid #000000;
+    
+}
+
+table.contact_list th {
+    background-color: rgba(255, 55, 82, 0.95);
+    border: 5px solid #000000;
+
+}
+
+table.contact_list tr:nth-child(odd) {
+    background-color: rgba(255, 125, 125, 0.95);
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+table.contact_list tr:nth-child(even) {
+    background-color: rgba(255, 172, 172, 0.95);
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+table.contact_list tr:last-child {
+    border-bottom: 5px solid #000000;
+}
+
+
+
+
+
+table.contact_list a {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 55, 82, 0.95);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+table.contact_list a:hover {
+    text-decoration: underline;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(255, 55, 82, 0.95);
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #000;
+}
+
+
+
+#newContact {
+    position: relative;
+    transition: none;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    font-weight: bold;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgba(255, 55, 82, 0.9);
+    width: fit-content;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+
+}
+
+
