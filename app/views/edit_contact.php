@@ -9,9 +9,9 @@
 <body>
     <h1>Editar Contacto</h1>
     <form action="" method="POST">
-        <input type="text" name="nombre" value="<?= $data->nombre ?>"><br>
-        <input type="text" name="telefono" value="<?= $data->telefono ?>"><br>        
-        <input type="text" name="email" value="<?= $data->email ?>"><br>
+        <input type="text" name="nombre" value="<?= $data->nombre ?>" required><br>
+        <input type="text" name="telefono" value="<?= $data->telefono ?>" required><br>        
+        <input type="text" name="email" value="<?= $data->email ?>" required><br>
         <input type="text" name="direccion" value="<?= $data->direccion ?>"><br>
         <input type="submit" value="Save" class="saveButton">
     </form>
